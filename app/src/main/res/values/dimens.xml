@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "margin_after_view">20dp</dimen>
+    <dimen name = "text_size">17sp</dimen>
+    <dimen name = "margin_after_question">10dp</dimen>
+    <dimen name = "margin_above_the_button">16dp</dimen>
+    <dimen name = "land_side_margin">60dp</dimen>
+</resources>

@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <!-- Welcome screen [CHAR LIMIT = 20] -->
+    <string name="welcome_message">Welcome to \nMovie QuizApp!</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT = 20] -->
+    <string name="your_name">Your Name</string>
+
+    <!-- Question one text view [CHAR LIMIT = 20] -->
+    <string name="question_one_text_view">Question 1 \nWho has played the main role in Gladiator movie?</string>
+
+    <!-- Question one answer 1 [CHAR LIMIT = 20] -->
+    <string name="tom_cruise">Tom Cruise</string>
+
+    <!-- Question one answer 2 [CHAR LIMIT = 20] -->
+    <string name="russel_crowe">Russell Crowe</string>
+
+    <!-- Question one answer 3 [CHAR LIMIT = 20] -->
+    <string name="kurt_russell">Kurt Russell</string>
+
+    <!-- Question two text view [CHAR LIMIT = 20] -->
+    <string name="question_two_text_view">Question 2 \nWho has composed theme music for Gladiator movie?</string>
+
+    <!-- Question two answer 1 [CHAR LIMIT = 20] -->
+    <string name="howard_leslie_shore">Howard Leslie Shore</string>
+
+    <!-- Question two answer 2 [CHAR LIMIT = 20] -->
+    <string name="ennio_morricone">Ennio Morricone</string>
+
+    <!-- Question two answer 3 [CHAR LIMIT = 20] -->
+    <string name="hans_zimmer">Hans Zimmer</string>
+
+    <!-- Question three text view [CHAR LIMIT = 20] -->
+    <string name="question_three_text_view">Question 3 \nWhich movie(s) has Leonardo DiCaprio played in?</string>
+
+    <!-- Question three answer 1 [CHAR LIMIT = 20] -->
+    <string name="blood_diamond">Blood Diamond</string>
+
+    <!-- Question three answer 2 [CHAR LIMIT = 20] -->
+    <string name="chicago">Chicago</string>
+
+    <!-- Question three answer 3 [CHAR LIMIT = 20] -->
+    <string name="saving_private_ryan">Saving Private Ryan</string>
+
+    <!-- Question three answer 4 [CHAR LIMIT = 20] -->
+    <string name="inception">Inception</string>
+
+    <!-- Question three answer 5 [CHAR LIMIT = 20] -->
+    <string name="the_hateful_eight">The hateful eight</string>
+
+    <!-- Question four text view [CHAR LIMIT = 20] -->
+    <string name="question_four_text_view">Question 4 \nWhich movie(s) has/have won the most Oscar’s awards?</string>
+
+    <!-- Question four answer 1 [CHAR LIMIT = 20] -->
+    <string name="titanic">Titanic</string>
+
+    <!-- Question four answer 2 [CHAR LIMIT = 20] -->
+    <string name="avatar">Avatar</string>
+
+    <!-- Question four answer 3 [CHAR LIMIT = 20] -->
+    <string name="la_la_land">La La Land</string>
+
+    <!-- Question four answer 4 [CHAR LIMIT = 20] -->
+    <string name="the_lord_of_the_rings_3">The Lord of the Rings: The Return of the King</string>
+
+    <!-- Question four answer 5 [CHAR LIMIT = 20] -->
+    <string name="ben_hur">Ben-Hur</string>
+
+    <!-- Question four answer 6 [CHAR LIMIT = 20] -->
+    <string name="one_flew_over">One Flew Over the Cuckoo\'s Nest</string>
+
+    <!-- Question five text view [CHAR LIMIT = 20] -->
+    <string name="question_five_text_view">Question 5 \nWhich movie series the quote „May the Force be with you” is from?</string>
+
+    <!-- Question five answer 1 [CHAR LIMIT = 20] -->
+    <string name="pirates">Pirates of the Caribbean</string>
+
+    <!-- Question five answer 2 [CHAR LIMIT = 20] -->
+    <string name="star_wars">Star Wars</string>
+
+    <!-- Question five answer 3 [CHAR LIMIT = 20] -->
+    <string name="the_lord_of_the_rings">The Lord of the Rings</string>
+
+    <!-- Question five answer 4 [CHAR LIMIT = 20] -->
+    <string name="harry_potter">Harry Potter</string>
+
+    <!-- Question five answer 5 [CHAR LIMIT = 20] -->
+    <string name="indiana_jones">Indiana Jones</string>
+
+    <!-- Question six text view [CHAR LIMIT = 20] -->
+    <string name="question_six_text_view">Question 6 \nWho has played Gollum in all of The Lord of the Rings movies?</string>
+
+    <!-- Hint text display in the empty field for the question six [CHAR LIMIT = 20] -->
+    <string name="question_six_edit_text">e.g. Adam Smith</string>
+
+    <!-- Question seven text view [CHAR LIMIT = 20] -->
+    <string name="question_seven_text_view">Question 7 \nWhose voice has Donkey in Shrek had?</string>
+
+    <!-- Question seven answer 1 [CHAR LIMIT = 20] -->
+    <string name="eddie_murphy">Eddie Murphy</string>
+
+    <!-- Question seven answer 2 [CHAR LIMIT = 20] -->
+    <string name="whoopi_goldberg">Whoopi Goldberg</string>
+
+    <!-- Question seven answer 3 [CHAR LIMIT = 20] -->
+    <string name="antonio_banderas">Antonion Banderas</string>
+
+    <!-- Question seven answer 4 [CHAR LIMIT = 20] -->
+    <string name="tommy_lee_jones">Tommy Lee Jones</string>
+
+    <!-- Question eight text view [CHAR LIMIT = 20] -->
+    <string name="question_eight_text_view">Question 8 \nWhat is the title of the original song from Dirty Dancing which won Oscar in 1987?</string>
+
+    <!-- Question eight answer 1 [CHAR LIMIT = 20] -->
+    <string name="always_love_you">„I Will Always Love You”</string>
+
+    <!-- Question eight answer 2 [CHAR LIMIT = 20] -->
+    <string name="time_of_my_life">„(I\'ve Had) The Time of My Life”</string>
+
+    <!-- Question eight answer 3 [CHAR LIMIT = 20] -->
+    <string name="heart_will_go_on">„My Heart Will Go On”</string>
+
+    <!-- Question eight answer 4 [CHAR LIMIT = 20] -->
+    <string name="lifetime_loving_you">„I Want To Spend My Lifetime Loving You”</string>
+
+    <!-- Question nine text view [CHAR LIMIT = 20] -->
+    <string name="question_nine_text_view">Question 9 \nHow many actresses have been playing so far the role of Miss Moneypenny in James Bond movies?</string>
+
+    <!-- Question nine answer 1 [CHAR LIMIT = 20] -->
+    <string name="nine_option_1">5</string>
+
+    <!-- Question nine answer 2 [CHAR LIMIT = 20] -->
+    <string name="nine_option_2">8</string>
+
+    <!-- Question nine answer 3 [CHAR LIMIT = 20] -->
+    <string name="nine_option_3">9</string>
+
+    <!-- Question nine answer 4 [CHAR LIMIT = 20] -->
+    <string name="nine_option_4">4</string>
+
+
+    <!-- Hint button title [CHAR LIMIT = 20] -->
+    <string name="submit_area">Submit Answers</string>
+
+    <!-- Hint button title [CHAR LIMIT = 20] -->
+    <string name="reset_area">Reset</string>
+
+    <!-- Hint quiz result [CHAR LIMIT = 20] -->
+    <string name="quiz_result">Quiz result</string>
+
+    <!-- Hint quiz result [CHAR LIMIT = 20] -->
+    <string name="quiz_result_text_view"></string>
+
+    <!-- Share Button [CHAR LIMIT = 20] -->
+    <string name="share_button">Share your score!</string>
+
+    <!-- Score Message in End Activity [CHAR LIMIT = 20] -->
+    <string name="score_message">You\'ve got:\u0020</string>
+
+    <!-- Score Message in End Activity [CHAR LIMIT = 20] -->
+    <string name="intent_share_message_1">I\'ve got\u0020</string>
+
+    <!-- Score Message in End Activity [CHAR LIMIT = 20] -->
+    <string name="intent_share_message_2">\u0020point on Movie QuizApp. \nTry yourself as well!</string>
+
+    <!-- Score Message in End Activity [CHAR LIMIT = 20] -->
+    <string name="intent_share_message_3">\u0020points on Movie QuizApp. \nTry yourself as well!</string>
+
+</resources>

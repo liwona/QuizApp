@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="your_name">Twoje Imię</string>
+    <string name="question_one_text_view">"Pytanie 1 \nKto zagrał główną rolę w filmie Gladitor? "</string>
+    <string name="question_two_text_view">"Pytanie 2 \nKto skomponował muzykę do filmu Gladiator? "</string>
+    <string name="question_three_text_view">"Pytanie 3 \nW których filmach zagrał Leonardo DiCaprio? "</string>
+    <string name="blood_diamond">Krwawy diament</string>
+    <string name="chicago">Chicago</string>
+    <string name="saving_private_ryan">Szeregowiec Ryan</string>
+    <string name="inception">Incepcja</string>
+    <string name="the_hateful_eight">Nienawistna ósemka</string>
+    <string name="question_four_text_view">"Pytanie 4 \nKtóry film / filmy są rekordzistą w ilości zdobytych Oskarów? "</string>
+    <string name="titanic">Titanic</string>
+    <string name="avatar">Avatar</string>
+    <string name="la_la_land">La La Land</string>
+    <string name="the_lord_of_the_rings_3">Władca Pierścieni: Powrót króla</string>
+    <string name="ben_hur">Ben-Hur</string>
+    <string name="one_flew_over">Lot nad kukułczym gniazdem</string>
+    <string name="question_five_text_view">"Pytanie 5 \nZ jakiej serii filmów jest to cytat: „Niech Moc Będzie Z Tobą”? "</string>
+    <string name="pirates">Piraci z Karaibów</string>
+    <string name="star_wars">Gwiezdne Wojny</string>
+    <string name="the_lord_of_the_rings">Władca Pierścieni</string>
+    <string name="harry_potter">Harry Potter</string>
+    <string name="indiana_jones">Indiana Jones</string>
+    <string name="question_six_text_view">Pytanie 6 \nJak nazywa się aktor, który wcielił się w rolę Golluma we wszystkich częściach Władcy Pierścieni?</string>
+    <string name="question_six_edit_text">np. Jan Nowak</string>
+    <string name="question_seven_text_view">"Pytanie 7 \nKto podkładał głos pod postać Osła w angielskojęzycznej wersji Shreka? "</string>
+    <string name="question_eight_text_view">Pytanie 8 \nJaki jest tytuł piosenki oryginalnej z filmu Dirty Dancing, która zdobyła Oskara w 1987 roku?</string>
+    <string name="question_nine_text_view">Pytanie 9 \nIle aktorek dotychczas zagrało rolę Miss Moneypenny w serii filmów James Bond?</string>
+    <string name="submit_area">Zatwierdź odpowiedzi</string>
+    <string name="reset_area">Zresetuj</string>
+    <string name="quiz_result">Wynik Quizu</string>
+    <string name="share_button">Udostępnij wynik!</string>
+</resources>
