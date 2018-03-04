@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -70,7 +71,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     /**
-     * Method checking which option chosen
+     * Method checking which option has been chosen
      * @param id is id of the options
      * @return which option checked by the user
      */
@@ -133,7 +134,7 @@ public class HomeActivity extends AppCompatActivity {
         RadioButton button = (RadioButton) findViewById(R.id.star_wars);
         boolean checked = button.isChecked();
         if (checked)
-            // Russel Crowe selected
+            // Star Wars selected
             return 1;
         else
             return 0;
@@ -153,6 +154,7 @@ public class HomeActivity extends AppCompatActivity {
 
     /**
      * Figure out if answer in Question 6 is correct
+     *
      * @param answer1 contains player's input
      * @return points for Question 6
      */
@@ -192,7 +194,7 @@ public class HomeActivity extends AppCompatActivity {
         RadioButton button = (RadioButton) findViewById(R.id.time_of_my_life);
         boolean checked = button.isChecked();
         if (checked)
-            // b.	„(I've Had) The Time of My Life” selected
+            // „(I've Had) The Time of My Life” selected
             return 1;
         else
             return 0;
@@ -215,6 +217,9 @@ public class HomeActivity extends AppCompatActivity {
             return 0;
     }
 
+    /**
+     * This method is called when the submit button is clicked. It is building message for the user.
+     */
 
     public void submitAnswers(View view) {
         points = questionOneSelection() + questionTwoSelection() + questionThreeSelection() + questionFourSelection() + questionFiveSelection() + questionSixSelection(extractAnswer()) + questionSevenSelection() + questionEightSelection() + questionNineSelection();
@@ -235,22 +240,30 @@ public class HomeActivity extends AppCompatActivity {
         intentEnd();
     }
 
+    /**
+     * Displays message for the user with result
+     *
+     * @param message is containing information about user's result
+     */
+
     private void displayResult(String message) {
         TextView orderSummaryTextView = (TextView) findViewById(R.id.quiz_result_text_view);
         orderSummaryTextView.setText(message);
     }
+
+    /**
+     * Method is allowing to send a message with the result.
+     */
 
     private void intentEnd () {
         Intent myIntent = new Intent(HomeActivity.this, EndActivity.class);
         myIntent.putExtra("points", points); //Optional parameters
         points = 0;
         HomeActivity.this.startActivity(myIntent);
-
-
     }
 
     /**
-     * Method unchecking RadioGroup
+     * Method is unchecking RadioGroup
      * @param id is id of the questions which contain RadioGroup
      */
 
@@ -259,15 +272,30 @@ public class HomeActivity extends AppCompatActivity {
         group1.clearCheck();
     }
 
+    /**
+     * Method is unchecking CheckBox
+     * @param id is id of the questions in CheckBox
+     */
+
     private void uncheckCheckBox(int id) {
         CheckBox button = (CheckBox) findViewById(id);
         button.setChecked(false);
     }
 
+    /**
+     * Method is unchecking EditText
+     * @param id is id of the questions with EditText
+     */
+
     private void cleanEditText(int id) {
         EditText editText = (EditText) findViewById(id);
         editText.getText().clear();
     }
+
+    /**
+     * This method is called when the reset button is clicked. It is cleaning everything what user clicked.
+     * It is also moving user to the begging of the Quiz where user's name can be entered.
+     */
 
     public void resetButton(View view) {
         points = 0;
@@ -290,6 +318,10 @@ public class HomeActivity extends AppCompatActivity {
         uncheckCheckBox(R.id.one_flew_over);
         cleanEditText(R.id.name_field);
         cleanEditText(R.id.question_six);
+        EditText userNameEditBox = (EditText) findViewById(R.id.name_field);
+        userNameEditBox.requestFocus();
+        InputMethodManager imm = (InputMethodManager)getSystemService(this.INPUT_METHOD_SERVICE);
+        imm.toggleSoftInput(InputMethodManager.SHOW_FORCED,InputMethodManager.HIDE_IMPLICIT_ONLY);
         displayResult("");
     }
 

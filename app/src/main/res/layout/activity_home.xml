@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".HomeActivity">
 
     <LinearLayout
         android:id="@+id/app_content_layout"
@@ -472,7 +472,6 @@
 
             <Button
                 android:id="@+id/submit_area"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_above_the_button"
@@ -505,7 +504,7 @@
             android:layout_marginTop="@dimen/margin_above_the_button"
             android:text="@string/quiz_result_text_view"
             android:textColor="#000000"
-            android:textSize="@dimen/text_size" />
+            android:textSize="@dimen/text_size"/>
 
     </LinearLayout>
 
