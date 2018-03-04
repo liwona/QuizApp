@@ -20,6 +20,11 @@ public class EndActivity extends AppCompatActivity {
         displayScore();
         }
 
+    /**
+     * This method displays score.
+     *
+     */
+
     private void displayScore() {
         TextView orderSummaryTextView = (TextView) findViewById(R.id.quiz_result_text_view);
         String message = getString(R.string.score_message) + points;
@@ -29,6 +34,10 @@ public class EndActivity extends AppCompatActivity {
             message += " points";
         orderSummaryTextView.setText(message);
     }
+
+    /**
+     * Method is allowing to send a message with the result.
+     */
 
     public void intentShare (View view ) {
         Intent sendIntent = new Intent();
@@ -41,7 +50,6 @@ public class EndActivity extends AppCompatActivity {
         sendIntent.putExtra(Intent.EXTRA_TEXT, intentMessage);
         sendIntent.setType("text/plain");
         startActivity(sendIntent);
-
     }
 
 }

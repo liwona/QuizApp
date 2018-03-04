@@ -252,7 +252,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     /**
-     * Method is allowing to send a message with the result.
+     * Method is allowing to move to End Screen 
      */
 
     private void intentEnd () {
