@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_after_view"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question_one_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_after_question"
+        android:text="@string/question_one_text_view"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size" />
+
+
+    <RadioGroup
+        android:id="@+id/question_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/tom_cruise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tom_cruise" />
+
+        <RadioButton
+            android:id="@+id/russel_crowe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/russel_crowe" />
+
+        <RadioButton
+            android:id="@+id/kurt_russell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/kurt_russell" />
+
+    </RadioGroup>
+
+</LinearLayout>
+
